@@ -1,0 +1,72 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1773673007
+<< error_s >>
+rect 694 -379 734 -313
+rect 796 -379 836 -313
+<< metal1 >>
+rect -66 -258 306 -216
+rect -66 -466 306 -424
+rect -66 -598 320 -556
+rect -44 -856 -2 -766
+rect 256 -856 298 -766
+rect -44 -896 298 -856
+<< metal2 >>
+rect -66 -222 532 -216
+rect -66 -258 810 -222
+rect 490 -262 810 -258
+rect 490 -318 532 -262
+rect -276 -366 -54 -318
+rect 8 -366 232 -318
+rect 294 -366 532 -318
+rect -276 -556 -234 -366
+rect 490 -424 532 -366
+rect -66 -432 532 -424
+rect -66 -466 806 -432
+rect 490 -472 806 -466
+rect -276 -598 320 -556
+rect -276 -600 10 -598
+rect -276 -658 -234 -600
+rect -276 -706 -52 -658
+rect -276 -856 -234 -706
+rect 0 -714 94 -650
+rect 152 -714 246 -650
+rect 490 -658 532 -472
+rect 308 -706 532 -658
+rect -44 -856 -2 -766
+rect 256 -856 298 -766
+rect -276 -896 298 -856
+rect -276 -898 12 -896
+<< metal3 >>
+rect 24 -1024 64 -652
+rect 198 -1022 238 -650
+use sg13_lv_nmos_MMRJHE  sg13_lv_nmos_MMRJHE_0
+timestamp 0
+transform 1 0 -23 0 1 -682
+box -81 -134 81 134
+use sg13_lv_nmos_MMRJHE  sg13_lv_nmos_MMRJHE_1
+timestamp 0
+transform 1 0 277 0 1 -682
+box -81 -134 81 134
+use sg13_lv_pmos_PMRCH7  sg13_lv_pmos_PMRCH7_0
+timestamp 0
+transform 1 0 -23 0 1 -342
+box -143 -134 143 134
+use sg13_lv_pmos_PMRCH7  sg13_lv_pmos_PMRCH7_1
+timestamp 0
+transform 1 0 263 0 1 -342
+box -143 -134 143 134
+use sg13_lv_pmos_PMRCH7  sg13_lv_pmos_PMRCH7_2
+timestamp 0
+transform 1 0 765 0 1 -346
+box -143 -134 143 134
+use via_Y6ZA6N  via_Y6ZA6N_0
+timestamp 0
+transform 1 0 41 0 1 -687
+box -29 -29 29 29
+use via_Y6ZA6N  via_Y6ZA6N_1
+timestamp 0
+transform 1 0 211 0 1 -685
+box -29 -29 29 29
+<< end >>

@@ -1,0 +1,29 @@
+** sch_path: /foss/designs/bandgap_reference/bgr_schematic.sch
+**.subckt bgr_schematic
+XM1 net2 net1 net3 net3 sg13_lv_pmos w=0.15u l=0.13u ng=1 m=1
+XM2 net1 net1 net3 net3 sg13_lv_pmos w=0.15u l=0.13u ng=1 m=1
+XM3 net1 net2 net4 GND sg13_lv_nmos w=0.15u l=0.13u ng=1 m=1
+XM4 net2 net2 Vd GND sg13_lv_nmos w=0.15u l=0.13u ng=1 m=1
+R1 net4 Vd1 3.6k m=1
+XQ1 GND GND Vd pnpMPA a=2e-12 p=6e-06 m=1
+XQ2 GND GND Vd1 pnpMPA a=2e-12 p=6e-06 m=1
+XQ3 GND GND Vd1 pnpMPA a=2e-12 p=6e-06 m=8
+XM5 Vref net1 net3 net3 sg13_lv_pmos w=0.15u l=0.13u ng=1 m=1
+R2 Vref CTAT 19.2k m=1
+XQ4 GND GND CTAT pnpMPA a=2e-12 p=6e-06 m=1
+V1 net3 GND 3.3
+**** begin user architecture code
+
+
+
+.lib cornerMOSlv.lib mos_tt
+.lib cornerMOShv.lib mos_tt
+.lib cornerHBT.lib hbt_typ
+.lib cornerRES.lib res_typ
+.lib cornerCAP.lib cap_typ
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end
